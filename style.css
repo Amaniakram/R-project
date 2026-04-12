@@ -1,3 +1,9 @@
+/* universal Selector*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial , sans-serif;
     background-color: beige;
@@ -15,11 +21,11 @@ header {
 
 section {
     background-color: rgba(222, 184, 135, 0.267);
-    color: black;
+    
     text-align: center;
-    padding: 15px;
+    padding: 20px 10px 40px 10px;
     margin: 20px;
-    border-radius: 5px;
+    border-top: 3px solid blanchedalmond;
 }
 
 .box {
@@ -59,4 +65,17 @@ label {
     display: inline;
     text-align: center;
     
+}
+
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid rgba(0, 0, 0, 0.884);
+    color: rgb(5, 82, 248);
+}
+
+img {
+    display: block;
+    margin: 20px auto;
 }
