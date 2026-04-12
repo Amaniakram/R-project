@@ -1,0 +1,56 @@
+body {
+    font-family: Arial , sans-serif;
+    background-color: beige;
+    margin: 1;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(42, 8, 49, 0.493);
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin: 20px; 
+}
+
+section {
+    background-color: rgba(222, 184, 135, 0.267);
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.box {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgba(60, 0, 128, 0.24);
+  color: black;
+  text-align: center;
+  border: 2px solid black;
+  box-sizing: border-box; /* ensures padding fits inside width */
+  font-size: 15px;
+  position: relative;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(242, 18, 250, 0);
+    width: 300px;
+    margin: auto;
+
+}
+
+button {
+    background-color: beige;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+    border: radius 20px; 
+    display: inline;
+    text-align: center;
+    
+}
