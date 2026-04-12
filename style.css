@@ -37,19 +37,25 @@ section {
 form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
     background-color: rgba(242, 18, 250, 0);
-    width: 300px;
+    width:200px;
     margin: auto;
 
 }
 
-button {
+label {
+    text-align: left;
+    font-weight: bold;
+}
+
+ button {
     background-color: beige;
     color: black;
+    width: 100%;
     padding: 5px;
-    margin: 10px;
-    border: radius 20px; 
+    margin: auto;
+    border: radius 10px; 
     display: inline;
     text-align: center;
     
