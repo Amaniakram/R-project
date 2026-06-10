@@ -6,19 +6,19 @@
     <title>First Landing Page</title>
     <link rel="stylesheet" href="./style.css"/>
 </head>
-
+<!-- Body -->
 <body>
+    <!--Header -->
     <header>
+        <h1 class="title">Explore The World With RoamBuddy </h1>
         <div class="nav-container">
-        <h1 class="title">  My Landing Page</h1>
-
-        <!-- Hamburger icon -->
-         <div class="menu-icon" onclick="ToggleMenu()">
-
-         </div>
         
+        <!-- Hamburger icon -->
+         <div class="menu-icon" onclick="ToggleMenu()"></div>
+
+        <!-- Navigation Menu -->
         <nav id="nav-menu">
-            <ul class="nav-links">
+             <ul class="nav-links">
             <li></li><a href="Home"> Home Page</a></li>
             <li></li><a href="About"> About Us </a></li>
             <li></li><a href="Contact"> Contact</a></li>
@@ -27,18 +27,77 @@
         </div>
     </header>
 
-    <section>
-    <img src="assets/coming-soon.webp" alt="coming soon" width="200" height="200"/>
-    <p class="caption">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-    </p>
-</section>
+    <main>
+        <article>
+            <h2>Welcome to RoamBuddy!</h2>
+            <p>Discover the world with us. Whether you're a student, a family, or a solo traveler, RoamBuddy is here to help you plan unforgettable trips. Explore our travel packages, create your own itineraries, and connect with fellow travelers. Your adventure starts here!</p>
+        <!--Hero Section-->
+        <section class="hero">
+            <p class="caption">
+            "Travel is the only thing you buy that makes you richer."
+        </p>
+       
 
-<div class="box">
-        <h2> Contact Me</h2>
-    
+    <img src="assets/R-project traveling1.jpg" alt="Travilling Around the World" width="300" height="300"/>
+    </section>
 
-    <form>
+    <div class="container">
+        <div> item 1</div>
+        <div> item 2</div>
+        <div> item 3</div>
+        <div> item 4</div>
+        <div> item 5</div>
+    </div>
+
+    <!--Cards Sections-->
+    <section class="Cards">
+    <div class="Travel-slideshow card">
+        <h2>Hiking Around The World  </h2>
+        <img src="./assets/R-projecrt traveling0.jpg" alt="Hiking to the World Mountains" width="300" height="300"/>
+        <p>Price: $300 Person</p>
+        <button>Book Now</button>
+    </div>
+
+
+    <div class="card"> 
+    <h2> Europe Tour </h2>
+    <img src="assets/R-project traveling 4.jpg" alt="Traveling for 10 days in Europe" width="300" height="300"/>
+    <p> 10 Days in Europe</p>
+    <p>Price: $1000 per person</p>
+    <button>Book Now</button>
+    </div>
+
+
+
+    <div class="card">
+    <h2> Photographer Road Trip </h2>
+    <img src="assets/R-procet traviling3.jpg" alt="Taking Photos During The Trip" width="300" height="300"/>
+    <p>No limit during the trip</p>
+    <p>Price: $300  </p>
+    <button>Book Now</button>
+    </div>
+
+    <div class="card">
+    <h2> Beach Vacation </h2>
+    <img src="assets/R-project traveling 5.avif" alt=" relaxing on the beach" width="300" height="300"/>
+    <p>Price: $500 per person</p>
+    <button>Book Now</button>
+    </div>
+
+    <div class="card">
+    <h2> Family Vacation </h2>
+    <img src="assets/R-procet traviling6.jpg" alt="Road Trip" width="300" height="300"/>
+    <p>Price: $200 per person</p>
+    <button>Book Now</button>
+    </div>
+    </section>
+        </article>
+</main>
+
+<!--Contact Us Section-->
+<div class= "box">
+        <h2> Contact US</h2>
+        <form>
         <label> Name: </label>
         <input type="text" placeholder="Name ">
         <label> Email: </label>
@@ -46,9 +105,44 @@
         <button type="submit"> send</button>
     </form>
 </div>
+<div class="resources">
+        <p class="show-text"> Show Resources </p>
 
+        <ul class="links">
+            
+       <li> <a href="https://www.lonelyplanet.com" target="_blank">
+            Lonely Planet Travel Guides
+        </a></li>
+        <li><a href="https://www.tripadvisor.com" target="_blank">
+            TripAdvisor – Travel Reviews and Recommendations
+        </a></li>
+        <li><a href="https://www.skyscanner.com" target="_blank">
+            Skyscanner – Find Cheap Flights
+        </a></li>
+        <li><a href="https://www.booking.com" target="_blank">
+            Booking.com Hotels & Stays
+        </a></li>
+        <li><a href="https://www.google.com/maps" target="_blank">
+            Google Maps – Explore Destinations
+        </a></li>
+    </ul>
+</div>
+    <p>RoamBuddy helps you plan perfect trips!
+    <span class="tooltrip">itineraries
+        <span class="tooltrip-text"> A travel plan that organizes destinations and activities.</span>
+    </span>
+    and discover exciting destinations worldwide. Whether you're a student, a family, or a solo traveler, RoamBuddy is here to help you create unforgettable travel experiences. Start your adventure today!</p>
+    <span class="tooltip" data-tooltip="A travel plan that organizes destinations and activities."></span>
+    <section class="download">
+        <h2>Download Resources</h2>
+    <a href="style.css"> Download Style </a>
+    <a href="https://docs.google.com/presentation/d/15XJlXe9PGAoIFfuy5SbzFrkS9-rcfjhL98uXWOPfREU/edit?slide=id.p#slide=id.p" target="blank"> View Wireframe Presentation
+    </a>
+    </section>
+
+    <!--Footer-->
 <footer>
-     @2026 My First Website Production 
+    <span> @2026 My First Website Production </span>
 </footer>
 
 </body>
